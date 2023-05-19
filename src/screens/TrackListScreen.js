@@ -11,6 +11,10 @@ const TrackListScreen = ( {navigation} ) => {
     )
 }
 
+TrackListScreen.navigationOptions = {
+    headerShown: false,
+};
+
 const styles = StyleSheet.create({
 
 });
